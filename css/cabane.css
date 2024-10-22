@@ -1,0 +1,344 @@
+/* cabane css */
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: "Protest Strike", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: "Lora", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+/*  font-family: "Qwitcher Grypen", cursive; */
+
+/* réinitialisation des marges et paddings */
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   } 
+
+   /* polices */
+
+h1, h3{
+    font-family: "Protest Strike", sans-serif;
+}
+
+h2{
+    font-family: "Lora", serif;
+}
+p{
+    Roboto", sans-serif; 
+}
+
+body{
+    background-color: #E7F0FF;
+}
+   /* header */
+
+header {
+    position: relative;
+}
+
+/* bannière */
+
+.banner {
+    position: relative;
+    height: 400px;
+    background-color: #333;
+}
+
+/* image bannière */
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+/* contenu bannière */
+
+.header-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* image logo */
+
+.logo { 
+    position: sticky;
+    float: left;
+    top: 5%; /* Ajuste la position verticale */
+    left: 10%; /* Ajuste la position horizontale */
+}
+
+
+.banner-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/* barre recherche */
+.search-bar{
+    position: sticky;
+    display: flex;
+    
+    padding: 0;
+    margin: 0;
+}
+
+/* contenu barre recherche */
+
+.search-bar input {
+    padding: 10px;
+    margin: 3rem auto;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0.15rem solid rgb(113, 113, 177);
+    outline: solid #c3cbd3;
+}
+
+/* menu */
+
+.burger-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.burger-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.burger-menu a:hover {
+    text-decoration: underline;
+}
+
+/* main */
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 28px;
+}
+
+h2{
+    font-family: 'Qwitcher Grypen', cursive;
+    color: white;
+    font-weight: 700;
+    text-align: center; /* Centre le texte horizontalement */
+    margin: 0; /* Supprime la marge par défaut */
+    font-style: normal;
+    font-size: 2rem; 
+}
+
+h3{
+    font-family: 'Qwitcher Grypen', cursive;
+    color:#a49a99;
+    font-weight: 700;
+    text-align: center; /* Centre le texte horizontalement */
+    margin: 0; /* Supprime la marge par défaut */
+    font-style: normal;
+    font-size: 2.5rem; 
+    padding: 1.5rem;
+}
+
+.content {
+    max-width: 90%; /* Limite la largeur du contenu */
+    margin: 1.5rem auto; /* Centre le bloc de contenu */
+}
+.center-text {
+    text-align: center; /* Centre le texte horizontalement */
+    margin: 0; /* Supprime la marge par défaut */
+}
+
+.dream-text {
+    font-family: 'Qwitcher Grypen', cursive;
+    color: #a49a99;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    font-style: normal;
+    font-size: 2.5em; 
+    padding: 0.5rem;
+}
+
+.hotel-title {
+    font-family: 'Roboto', sans-serif; /* Applique la police Robot */
+    font-size: 2.5em; /* Ajustez la taille selon vos besoins */
+    font-weight: bold; /* Peut être modifié selon votre préférence */
+}
+
+.description {
+    font-family: 'Lora', serif; 
+    line-height: 1.6; /* Améliore la lisibilité */
+    text-align: justify; /* Justifie le texte */
+    text-align: center;
+}
+
+.content-text {
+    max-width: 90%; /* Limite la largeur du contenu */
+    margin: 1.5rem auto; /* Centre le bloc de contenu */
+    border: solid;
+    background-color: #9F9AA4;
+    color: aqua;
+    border-radius: 20px;
+}
+.center-content-text {
+    text-align: center; /* Centre le texte horizontalement */
+    margin: 0; /* Supprime la marge par défaut */
+}
+
+.cabin-text {
+    font-family: 'Qwitcher Grypen', cursive;
+    color: aqua;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem; 
+}
+
+.cabin-section {
+    position: relative; /* Pour positionner le contenu par rapport à la section */
+    background-image: url("../images/Cabine\ Spa\ du\ Ruisseau15.jpg");/* Image de fond */
+    background-size: cover; /* Couvre toute la section */
+    background-position: center; /* Centre l'image */
+    height: 500px; /* Hauteur de la section */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le container */
+    align-items: center; /* Centrer verticalement le container */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 0 5rem 1rem; /* Centre le bloc de contenu */
+}
+
+.cabin-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour rendre le texte lisible */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espacement autour du texte */
+    text-align: center; /* Centrer le texte */
+    max-width: 600px; /* Limite la largeur du contenu */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+.cabin-section1 {
+    position: relative; /* Pour positionner le contenu par rapport à la section */
+    background-image: url("../images/Cabane\ Spa\ du\ Ruisseau2.jpg");/* Image de fond */
+    background-size: cover; /* Couvre toute la section */
+    background-position: center; /* Centre l'image */
+    height: 500px; /* Hauteur de la section */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le container */
+    align-items: center; /* Centrer verticalement le container */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 0 5rem 1rem; /* Centre le bloc de contenu */
+}
+
+.cabin-section2 {
+    position: relative; /* Pour positionner le contenu par rapport à la section */
+    background-image: url("../images/Cabane\ Spa\ du\ Ruisseau11.jpg");/* Image de fond */
+    background-size: cover; /* Couvre toute la section */
+    background-position: center; /* Centre l'image */
+    height: 500px; /* Hauteur de la section */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le container */
+    align-items: center; /* Centrer verticalement le container */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 0 5rem 1rem; /* Centre le bloc de contenu */
+}
+.cabin-section3 {
+    position: relative; /* Pour positionner le contenu par rapport à la section */
+    background-image: url("../images/Cabine\ Spa\ du\ Ruisseau16.jpg");/* Image de fond */
+    background-size: cover; /* Couvre toute la section */
+    background-position: center; /* Centre l'image */
+    height: 500px; /* Hauteur de la section */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le container */
+    align-items: center; /* Centrer verticalement le container */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 0 5rem 1rem; /* Centre le bloc de contenu */
+}
+
+.cabin-container h2{
+    font-family:'Qwitcher Grypen', cursive;
+    font-size: 2.5rem; /* Taille du titre */
+    margin-bottom: 30px; /* Espace entre le titre et le texte */
+}
+
+.cabin-container p {
+    font-size: 1.rem; /* Taille du texte */
+}
+
+footer {
+    background-color: #f9f9f9; /* Couleur de fond du footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.media-container {
+    display: flex;
+    justify-content: center; /* Espacement entre la vidéo et la carte */
+    flex-wrap: wrap; /* Pour que ça s'adapte aux petits écrans */
+    gap: 20px; /* Espacement entre les conteneurs */
+    margin-bottom: 20px; /* Espace entre les médias et le texte de copyright */
+}
+
+.video-container,
+.map-container {
+    flex: 1; /* Chaque conteneur prend une part égale de l'espace disponible */
+    position: relative;
+    max-width: 600px; /* Largeur maximale pour la vidéo et la carte */
+    height: 450px; /* Hauteur fixe pour la vidéo et la carte */
+    margin: 10rem;
+}
+
+.video-container iframe,
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #007bff; /* Couleur des liens */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a.goTop { 
+    display: block;
+    position: fixed;
+    bottom: 1rem;
+    right: 1.5rem;
+    background-color: #DC493A;
+    color: aliceblue;
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; /* Correction ici */
+    transition: all 0.5s ease-in-out;
+}
+
+a.goTop:hover {
+    color: #0e63c4;
+    opacity: 0.75;
+}
+
