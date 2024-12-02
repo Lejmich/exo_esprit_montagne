@@ -5,34 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exo2 L'agence de voyage</title>
     <link rel="stylesheet" href="css/cabane.css">
+    <script src="translations.js"></script>
 </head>
 <body>               
-        <!-- header -->
-        <header>
-            <!-- bannière -->
-            <div class="banner">
-                <img src="images/Bannière.jpg" alt="Paysage et toits de chalets dans la nuit">
-                <!-- contenu de l'entête -->
-                <div class="header-content">
-                    <!-- logo de l'agence -->
-                    <div class="logo">
-                        <img src="images/Logo_ESPRIT_MONTAGNE_by_mich.png" alt="Logo de l'agence Esprit Montagne">
-                    </div>
-                    <!-- barre de recherche -->
-                    <div class="search-bar">
-                        <input type="text" placeholder="Que recherchez-vous ?">
-                    </div>
-                    <!-- burger menu -->
-                    <nav class="burger-menu">
-                        <a href="#">Accueil</a>
-                        <a href="#">Quel type de location...</a>
-                        <a href="#">Quelle station...</a>
-                        <a href="#">Quand partir...</a>
-                        <a href="#">Nos ventes flash</a>
-                    </nav>
+    <!-- header -->
+    <header>
+        <!-- multilingue -->
+        <div class="language-selector">
+            <button data-lang="fr">🇫🇷 Français</button>
+            <button data-lang="en">🇬🇧 English</button>
+          </div>
+          
+          <div id="content">
+            <h1 data-key="welcome">Bienvenue chez Esprit Montagne</h1>
+            <p data-key="description">Découvrez les meilleures offres de location et séjours à la montagne.</p>
+        </div>
+        
+        <!-- bannière -->
+        <div class="banner">
+            <img src="images/Bannière.jpg" alt="Paysage et toits de chalets dans la nuit">
+            <!-- contenu de l'entête -->
+            <div class="header-content">
+                <!-- logo de l'agence -->
+                <div class="logo">
+                    <img src="images/Logo_ESPRIT_MONTAGNE_by_mich.png" alt="Logo de l'agence Esprit Montagne">
                 </div>
+                <!-- barre de recherche -->
+                <div class="search-bar">
+                    <input type="text" data-key="search-placeholder" placeholder="Que recherchez-vous ?">
+                </div>
+                <!-- burger menu -->
+                <nav class="burger-menu">
+                    <a href="#" data-key="home">Accueil</a>
+                    <a href="#" data-key="rental-type">Quel type de location...</a>
+                    <a href="#" data-key="station">Quelle station...</a>
+                    <a href="#" data-key="when">Quand partir...</a>
+                    <a href="#" data-key="flash-sales">Nos ventes flash</a>
+                </nav>
             </div>
-        </header>
+        </div>
+    </header>
     
         <!-- main -->
         <main>

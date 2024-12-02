@@ -22,8 +22,8 @@ h1, h3{
 h2{
     font-family: "Lora", serif;
 }
-p{
-    Roboto", sans-serif; 
+p {
+    font-family: "Roboto", sans-serif; 
 }
 
 body{
@@ -270,7 +270,7 @@ a.goTop{
     position: fixed;
     bottom: 1rem;
     right: 1,5rem;
-    background-color: chocolate;
+    background-color: #0e63c4;
     color: #ffffff;
     font-size: 2rem;
     width: 2rem;
@@ -281,7 +281,7 @@ a.goTop{
 }
 
 a.goTop:hover{
-    color: #0e63c4;
+    color: chocolate;
     opacity: 0.75;
 }
 
